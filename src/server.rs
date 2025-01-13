@@ -15,7 +15,7 @@ use tracing::{debug, error, info, instrument};
 /// Server listener state. Created in the `run` call. It includes a `run` method
 /// which performs the TCP listening and initialization of per-connection state.
 #[derive(Debug)]
-struct Listener {
+struct   Listener {
     /// Shared database handle.
     ///
     /// Contains the key / value store as well as the broadcast channels for
